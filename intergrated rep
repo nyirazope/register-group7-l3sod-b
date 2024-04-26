@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Integrated HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+    /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Welcome to Integrated HTML and CSS</h1>
+        <p>This is a paragraph.</p>
+        <div class="box">
+            <p>This is another paragraph inside a box.</p>
+        </div>
+    </div>
+</body>
+</html>
+CSS Styling:
+CSS is used to control the presentation, layout, and style of HTML elements. It allows you to define rules that specify how HTML elements should appear, such as colors, fonts, sizes, margins, and more. CSS can be applied inline, embedded within HTML, or linked from an external stylesheet.
+css
+Copy code
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
